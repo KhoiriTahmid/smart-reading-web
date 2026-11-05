@@ -1,0 +1,323 @@
+{
+  "nav": {
+    "dashboard": "Dasbor",
+    "history": "Riwayat Membaca",
+    "ocrTts": "OCR ke Suara",
+    "users": "Pengguna",
+    "roles": "Peran"
+  },
+  "dashboard": "Dasbor",
+  "history": {
+    "search": "Cari berdasarkan judul, teks, atau pembaca...",
+    "allStatus": "Semua Status",
+    "status": {
+      "done": "Selesai",
+      "processing": "Memproses",
+      "stopped": "Dihentikan",
+      "failed": "Gagal"
+    },
+    "cols": {
+      "title": "Judul",
+      "reader": "Pembaca",
+      "voice": "Suara",
+      "audio": "Audio",
+      "pages": "Halaman",
+      "duration": "Durasi",
+      "date": "Tanggal",
+      "status": "Status"
+    },
+    "viewImage": "Lihat gambar asli",
+    "detail": "Detail",
+    "delete": "Hapus",
+    "confirmDelete": "Konfirmasi Hapus",
+    "minutes": "{{count}} mnt",
+    "empty": "Tidak ada riwayat membaca",
+    "modal": {
+      "close": "Tutup",
+      "pipelineStage": "Status Pipeline",
+      "textStats": "Panjang Teks",
+      "wordsChars": "{{words}} kata · {{chars}} karakter",
+      "errorTitle": "Detail Kesalahan",
+      "noAudio": "Tidak ada audio untuk entri ini.",
+      "noText": "Tidak ada teks terekstrak.",
+      "copy": "Salin",
+      "copied": "Tersalin",
+      "sourceImage": "Gambar Asli",
+      "openFull": "Buka",
+      "noImage": "Tidak ada pratinjau gambar"
+    }
+  },
+  "ocrTts": "OCR ke Suara",
+  "users": {
+    "add": "Tambah Pengguna Baru",
+    "name": "Nama",
+    "namePh": "Nama lengkap",
+    "email": "Email",
+    "emailPh": "pengguna@contoh.com",
+    "password": "Kata Sandi",
+    "passwordPh": "Min. 8 karakter",
+    "role": "Peran",
+    "cols": {
+      "user": "Pengguna",
+      "role": "Peran",
+      "status": "Status"
+    },
+    "status": {
+      "active": "Aktif",
+      "invited": "Diundang",
+      "inactive": "Tidak Aktif"
+    },
+    "remove": "Hapus",
+    "confirm": "Hapus Pengguna",
+    "empty": "Tidak ada pengguna ditemukan",
+    "addBtn": "Tambah Pengguna"
+  },
+  "roles": {
+    "role": "Peran",
+    "permission": "Izin",
+    "perms": {
+      "read": "Baca",
+      "write": "Tulis",
+      "delete": "Hapus",
+      "manage_users": "Kelola Pengguna",
+      "manage_roles": "Kelola Peran"
+    },
+    "locked": "Peran terkunci tidak dapat diubah"
+  },
+  "controls": {
+    "volume": "Volume",
+    "mute": "Bisukan",
+    "speed": "Kecepatan",
+    "prev": "Sebelumnya",
+    "next": "Selanjutnya",
+    "pause": "Jeda",
+    "resume": "Lanjutkan",
+    "powerOn": "Nyalakan",
+    "powerOff": "Matikan",
+    "restart": "Mulai Ulang",
+    "connected": "Terhubung",
+    "offline": "Terputus",
+    "cpuTemp": "Suhu CPU",
+    "cpuLoad": "Beban CPU",
+    "ram": "RAM",
+    "wpm": "WPM"
+  },
+  "pages": {
+    "dashboard": {
+      "title": "Dasbor",
+      "subtitle": "Status & Kontrol Perangkat"
+    },
+    "history": {
+      "title": "Riwayat Membaca",
+      "subtitle": "Lacak sesi membaca Anda"
+    },
+    "ocrTts": {
+      "title": "OCR ke Suara",
+      "subtitle": "Ubah gambar menjadi audio"
+    },
+    "users": {
+      "title": "Manajemen Pengguna",
+      "subtitle": "Kelola pengguna sistem"
+    },
+    "roles": {
+      "title": "Manajemen Peran",
+      "subtitle": "Tentukan izin"
+    },
+    "notFound": {
+      "title": "Halaman Tidak Ditemukan",
+      "subtitle": "Halaman yang diminta tidak tersedia"
+    }
+  },
+  "notFound": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Halaman yang Anda cari tidak ditemukan atau Anda tidak memiliki izin untuk mengaksesnya.",
+    "goBack": "Kembali",
+    "backHome": "Kembali ke Beranda"
+  },
+  "header": {
+    "status": {
+      "open": "Terhubung",
+      "connecting": "Menghubungkan",
+      "closed": "Terputus"
+    }
+  },
+  "dashboardControls": {
+    "title": "Kontrol Perangkat",
+    "subtitle": "Kelola pengaturan perangkat membaca",
+    "volume": "Volume",
+    "unmute": "Buka Suara",
+    "mute": "Bisukan",
+    "speed": "Kecepatan Membaca",
+    "pageFlipper": "Pembalik Halaman",
+    "prev": "Sebelumnya",
+    "next": "Selanjutnya",
+    "pause": "Jeda",
+    "resume": "Lanjutkan",
+    "powerOn": "Nyalakan",
+    "powerOff": "Matikan",
+    "restart": "Mulai Ulang",
+    "confirm": "Konfirmasi"
+  },
+  "dashboardCards": {
+    "device": "Perangkat",
+    "backend": "Backend",
+    "mode": "Mode",
+    "queue": "Antrian",
+    "connection": "Koneksi",
+    "latency": "Latensi",
+    "power": "Daya",
+    "queueStatus": "Status",
+    "tasks": "{{count}} tugas",
+    "page": "Halaman {{page}}"
+  },
+  "dashboardConn": {
+    "open": "Terhubung",
+    "connecting": "Menghubungkan",
+    "closed": "Terputus"
+  },
+  "dashboardMode": {
+    "reading": "Membaca",
+    "paused": "Dijeda",
+    "standby": "Siaga",
+    "flipping": "Membalik",
+    "off": "Mati",
+    "restarting": "Memulai Ulang"
+  },
+  "dashboardStatus": {
+    "on": "Nyala",
+    "off": "Mati"
+  },
+  "dashboardQueue": {
+    "processing": "Memproses",
+    "idle": "Menunggu"
+  },
+  "dashboardSystem": {
+    "title": "Kesehatan Sistem",
+    "subtitle": "Metrik perangkat real-time",
+    "cpuTemp": "Suhu CPU",
+    "cpuLoad": "Beban CPU",
+    "ram": "Penggunaan RAM"
+  },
+  "dashboardWpm": {
+    "title": "Kecepatan Membaca",
+    "subtitle": "Performa kata per menit",
+    "avg": "Rata-rata: {{value}} WPM"
+  },
+  "ocr": {
+    "upload": "Unggah Gambar",
+    "drop": "Jatuhkan gambar di sini untuk mengunggah",
+    "hint": "Didukung: PNG, JPG (maks 10MB)",
+    "lang": "Bahasa Teks",
+    "langs": {
+      "id": "Indonesia",
+      "en": "Inggris",
+      "auto": "Deteksi Otomatis"
+    },
+    "voice": "Suara",
+    "voices": {
+      "default": "Default",
+      "female": "Perempuan",
+      "male": "Laki-laki"
+    },
+    "convert": "Ubah ke Suara",
+    "retry": "Coba Lagi",
+    "running": "Mengonversi...",
+    "stages": {
+      "pending": "Dalam antrean pemrosesan...",
+      "ocr": "Mengekstrak teks dari gambar (OCR)...",
+      "tts": "Menghasilkan suara (TTS)..."
+    },
+    "done": "Konversi selesai",
+    "ready": "Siap dikonversi",
+    "waiting": "Menunggu unggahan",
+    "result": "Hasil",
+    "text": "Teks Terekstrak",
+    "textPlaceholder": "Teks terekstrak akan muncul di sini...",
+    "audio": "Output Audio",
+    "preview": "Pratinjau",
+    "stop": "Hentikan",
+    "send": "Kirim ke Perangkat",
+    "sent": "Terkirim",
+    "errors": {
+      "badType": "Hanya gambar PNG atau JPG yang diizinkan",
+      "tooBig": "Ukuran file terlalu besar (maks 10MB)",
+      "failed": "Konversi gagal. Silakan coba lagi.",
+      "invalid_file": "Format file tidak valid",
+      "file_too_large": "File terlalu besar",
+      "conversion_failed": "Konversi gagal",
+      "network_error": "Kesalahan jaringan"
+    }
+  },
+  "sidebar": {
+    "brand": "Smart Reading",
+    "user": "Admin",
+    "email": "admin@smartbooks.io"
+  },
+  "auth": {
+    "brand": {
+      "name": "Smart Reading",
+      "tagline": "Pendamping membaca IoT"
+    },
+    "hero": {
+      "eyebrow": "Pendamping membaca pintar",
+      "title": "Baca lebih cerdas. Dengarkan di mana saja.",
+      "description": "Ubah halaman tercetak menjadi suara alami dan selaraskan setiap sesi membaca dengan perangkat Smart Reading Anda.",
+      "features": {
+        "ocr": {
+          "title": "Pindai & dengarkan",
+          "description": "Ambil gambar halaman dan ubah menjadi suara dalam hitungan detik."
+        },
+        "device": {
+          "title": "Dirancang untuk perangkat Anda",
+          "description": "Atur volume, kecepatan, dan pemutaran dari satu dasbor."
+        },
+        "history": {
+          "title": "Semua sesi tersinkron",
+          "description": "Lanjutkan bacaan tepat di mana Anda berhenti, di perangkat mana pun."
+        }
+      },
+      "footer": "© {{year}} Smart Reading. Hak cipta dilindungi."
+    },
+    "googleContinue": "Lanjutkan dengan Google",
+    "googleSignup": "Daftar dengan Google",
+    "or": "atau",
+    "name": "Nama lengkap",
+    "namePlaceholder": "Nama Anda",
+    "email": "Email",
+    "emailPlaceholder": "anda@contoh.com",
+    "password": "Kata sandi",
+    "passwordPlaceholder": "Masukkan kata sandi",
+    "confirmPassword": "Konfirmasi kata sandi",
+    "confirmPasswordPlaceholder": "Masukkan ulang kata sandi",
+    "showPassword": "Tampilkan kata sandi",
+    "hidePassword": "Sembunyikan kata sandi",
+    "loading": "Memuat perpustakaan Anda...",
+    "logout": "Keluar",
+    "login": {
+      "title": "Selamat datang kembali",
+      "subtitle": "Masuk untuk mengendalikan perangkat membaca dan melanjutkan bacaan Anda.",
+      "submit": "Masuk",
+      "submitting": "Memproses...",
+      "noAccount": "Baru di Smart Reading?",
+      "createAccount": "Buat akun"
+    },
+    "register": {
+      "title": "Buat akun Anda",
+      "subtitle": "Mulai membaca lebih cerdas dalam kurang dari satu menit.",
+      "submit": "Buat akun",
+      "submitting": "Membuat akun...",
+      "passwordHint": "Gunakan minimal 8 karakter.",
+      "haveAccount": "Sudah punya akun?",
+      "signIn": "Masuk"
+    },
+    "errors": {
+      "invalidCredentials": "Email atau kata sandi salah. Silakan coba lagi.",
+      "emailTaken": "Akun dengan email ini sudah terdaftar. Coba masuk saja.",
+      "passwordMismatch": "Kata sandi tidak cocok.",
+      "passwordLength": "Kata sandi minimal 8 karakter.",
+      "nameRequired": "Silakan masukkan nama lengkap Anda.",
+      "emailRequired": "Silakan masukkan alamat email Anda.",
+      "generic": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "history": "History Read",
+    "ocrTts": "OCR to Speech",
+    "users": "Users",
+    "roles": "Roles"
+  },
+  "dashboard": "Dashboard",
+  "history": {
+    "search": "Search by title, text, or reader...",
+    "allStatus": "All Status",
+    "status": {
+      "done": "Completed",
+      "processing": "Processing",
+      "stopped": "Stopped",
+      "failed": "Failed"
+    },
+    "cols": {
+      "title": "Title",
+      "reader": "Reader",
+      "voice": "Voice",
+      "audio": "Audio",
+      "pages": "Pages",
+      "duration": "Duration",
+      "date": "Date",
+      "status": "Status"
+    },
+    "viewImage": "View source image",
+    "detail": "Detail",
+    "delete": "Delete",
+    "confirmDelete": "Confirm Delete",
+    "minutes": "{{count}} min",
+    "empty": "No reading history found",
+    "modal": {
+      "close": "Close",
+      "pipelineStage": "Pipeline Status",
+      "textStats": "Text Length",
+      "wordsChars": "{{words}} words · {{chars}} chars",
+      "errorTitle": "Error Details",
+      "noAudio": "No synthesized audio available for this entry.",
+      "noText": "No extracted text available.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "sourceImage": "Source Image",
+      "openFull": "Open",
+      "noImage": "No image preview"
+    }
+  },
+  "ocrTts": "OCR to Speech",
+  "users": {
+    "add": "Add New User",
+    "name": "Name",
+    "namePh": "Full name",
+    "email": "Email",
+    "emailPh": "user@example.com",
+    "password": "Password",
+    "passwordPh": "Min. 8 characters",
+    "role": "Role",
+    "cols": {
+      "user": "User",
+      "role": "Role",
+      "status": "Status"
+    },
+    "status": {
+      "active": "Active",
+      "invited": "Invited",
+      "inactive": "Inactive"
+    },
+    "remove": "Remove",
+    "confirm": "Remove User",
+    "empty": "No users found",
+    "addBtn": "Add User"
+  },
+  "roles": {
+    "role": "Role",
+    "permission": "Permission",
+    "perms": {
+      "read": "Read",
+      "write": "Write",
+      "delete": "Delete",
+      "manage_users": "Manage Users",
+      "manage_roles": "Manage Roles"
+    },
+    "locked": "Locked roles cannot be modified"
+  },
+  "controls": {
+    "volume": "Volume",
+    "mute": "Mute",
+    "speed": "Speed",
+    "prev": "Previous",
+    "next": "Next",
+    "pause": "Pause",
+    "resume": "Resume",
+    "powerOn": "Power On",
+    "powerOff": "Power Off",
+    "restart": "Restart",
+    "connected": "Connected",
+    "offline": "Offline",
+    "cpuTemp": "CPU Temp",
+    "cpuLoad": "CPU Load",
+    "ram": "RAM",
+    "wpm": "WPM"
+  },
+  "pages": {
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Device Status & Control"
+    },
+    "history": {
+      "title": "Reading History",
+      "subtitle": "Track your reading sessions"
+    },
+    "ocrTts": {
+      "title": "OCR to Speech",
+      "subtitle": "Convert images to audio"
+    },
+    "users": {
+      "title": "User Management",
+      "subtitle": "Manage system users"
+    },
+    "roles": {
+      "title": "Role Management",
+      "subtitle": "Define permissions"
+    },
+    "notFound": {
+      "title": "Page Not Found",
+      "subtitle": "The requested page is unavailable"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for doesn't exist or you don't have permission to access it.",
+    "goBack": "Go Back",
+    "backHome": "Back to Home"
+  },
+  "header": {
+    "status": {
+      "open": "Connected",
+      "connecting": "Connecting",
+      "closed": "Disconnected"
+    }
+  },
+  "dashboardControls": {
+    "title": "Device Controls",
+    "subtitle": "Manage reading device settings",
+    "volume": "Volume",
+    "unmute": "Unmute",
+    "mute": "Mute",
+    "speed": "Reading Speed",
+    "pageFlipper": "Page Flipper",
+    "prev": "Previous",
+    "next": "Next",
+    "pause": "Pause",
+    "resume": "Resume",
+    "powerOn": "Power On",
+    "powerOff": "Power Off",
+    "restart": "Restart",
+    "confirm": "Confirm"
+  },
+  "dashboardCards": {
+    "device": "Device",
+    "backend": "Backend",
+    "mode": "Mode",
+    "queue": "Queue",
+    "connection": "Connection",
+    "latency": "Latency",
+    "power": "Power",
+    "queueStatus": "Status",
+    "tasks": "{{count}} tasks",
+    "page": "Page {{page}}"
+  },
+  "dashboardConn": {
+    "open": "Connected",
+    "connecting": "Connecting",
+    "closed": "Disconnected"
+  },
+  "dashboardMode": {
+    "reading": "Reading",
+    "paused": "Paused",
+    "standby": "Standby",
+    "flipping": "Flipping",
+    "off": "Off",
+    "restarting": "Restarting"
+  },
+  "dashboardStatus": {
+    "on": "On",
+    "off": "Off"
+  },
+  "dashboardQueue": {
+    "processing": "Processing",
+    "idle": "Idle"
+  },
+  "dashboardSystem": {
+    "title": "System Health",
+    "subtitle": "Real-time device metrics",
+    "cpuTemp": "CPU Temperature",
+    "cpuLoad": "CPU Load",
+    "ram": "RAM Usage"
+  },
+  "dashboardWpm": {
+    "title": "Reading Speed",
+    "subtitle": "Words per minute performance",
+    "avg": "Average: {{value}} WPM"
+  },
+  "ocr": {
+    "upload": "Upload Image",
+    "drop": "Drop image here to upload",
+    "hint": "Supported: PNG, JPG (max 10MB)",
+    "lang": "Text Language",
+    "langs": {
+      "id": "Indonesian",
+      "en": "English",
+      "auto": "Auto Detect"
+    },
+    "voice": "Voice",
+    "voices": {
+      "default": "Default",
+      "female": "Female",
+      "male": "Male"
+    },
+    "convert": "Convert to Speech",
+    "retry": "Retry",
+    "running": "Converting...",
+    "stages": {
+      "pending": "Queued for processing...",
+      "ocr": "Extracting text from image (OCR)...",
+      "tts": "Synthesizing speech (TTS)..."
+    },
+    "done": "Conversion complete",
+    "ready": "Ready to convert",
+    "waiting": "Waiting for upload",
+    "result": "Result",
+    "text": "Extracted Text",
+    "textPlaceholder": "Extracted text will appear here...",
+    "audio": "Audio Output",
+    "preview": "Preview",
+    "stop": "Stop",
+    "send": "Send to Device",
+    "sent": "Sent",
+    "errors": {
+      "badType": "Only PNG or JPG images are allowed",
+      "tooBig": "File is too large (max 10MB)",
+      "failed": "Conversion failed. Please try again.",
+      "invalid_file": "Invalid file format",
+      "file_too_large": "File too large",
+      "conversion_failed": "Conversion failed",
+      "network_error": "Network error"
+    }
+  },
+  "sidebar": {
+    "brand": "Smart Reading",
+    "user": "Admin",
+    "email": "admin@smartbooks.io"
+  },
+  "auth": {
+    "brand": {
+      "name": "Smart Reading",
+      "tagline": "IoT reading companion"
+    },
+    "hero": {
+      "eyebrow": "Smart reading companion",
+      "title": "Read smarter. Listen anywhere.",
+      "description": "Turn printed pages into natural speech and keep every reading session in sync with your smart reading device.",
+      "features": {
+        "ocr": {
+          "title": "Scan & listen",
+          "description": "Capture a page and convert it to speech in seconds."
+        },
+        "device": {
+          "title": "Made for your device",
+          "description": "Control volume, speed, and playback from one dashboard."
+        },
+        "history": {
+          "title": "Every session synced",
+          "description": "Pick up right where you left off, on any device."
+        }
+      },
+      "footer": "© {{year}} Smart Reading. All rights reserved."
+    },
+    "googleContinue": "Continue with Google",
+    "googleSignup": "Sign up with Google",
+    "or": "or",
+    "name": "Full name",
+    "namePlaceholder": "Jane Doe",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "loading": "Loading your library...",
+    "logout": "Sign out",
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to control your reading device and continue where you left off.",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "noAccount": "New to Smart Reading?",
+      "createAccount": "Create an account"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start reading smarter in less than a minute.",
+      "submit": "Create account",
+      "submitting": "Creating account...",
+      "passwordHint": "Use at least 8 characters.",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "errors": {
+      "invalidCredentials": "Incorrect email or password. Please try again.",
+      "emailTaken": "An account with this email already exists. Try signing in instead.",
+      "passwordMismatch": "Passwords do not match.",
+      "passwordLength": "Password must be at least 8 characters.",
+      "nameRequired": "Please enter your full name.",
+      "emailRequired": "Please enter your email address.",
+      "generic": "Something went wrong. Please try again."
+    }
+  }
+}
