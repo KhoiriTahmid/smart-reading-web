@@ -298,6 +298,10 @@
       "subtitle": "Masuk untuk mengendalikan perangkat membaca dan melanjutkan bacaan Anda.",
       "submit": "Masuk",
       "submitting": "Memproses...",
+      "forgotPassword": "Lupa kata sandi?",
+      "resendVerification": "Kirim ulang email verifikasi",
+      "resendingVerification": "Mengirim email verifikasi...",
+      "verificationResent": "Email verifikasi terkirim! Silakan cek kotak masuk Anda.",
       "noAccount": "Baru di Smart Reading?",
       "createAccount": "Buat akun"
     },
@@ -308,11 +312,40 @@
       "submitting": "Membuat akun...",
       "passwordHint": "Gunakan minimal 8 karakter.",
       "haveAccount": "Sudah punya akun?",
-      "signIn": "Masuk"
+      "signIn": "Masuk",
+      "verifyTitle": "Cek email Anda",
+      "verifyDescription": "Kami telah mengirimkan tautan verifikasi ke {{email}}. Klik tombol di dalam email untuk mengaktifkan akun Anda.",
+      "didNotReceive": "Belum menerima email?",
+      "resendBtn": "Kirim ulang email verifikasi",
+      "resending": "Mengirim ulang...",
+      "resentSuccess": "Email verifikasi baru telah dikirim."
+    },
+    "forgotPassword": {
+      "title": "Lupa kata sandi?",
+      "subtitle": "Masukkan alamat email yang terdaftar pada akun Anda dan kami akan mengirimkan tautan untuk mengatur ulang kata sandi.",
+      "submit": "Kirim tautan reset",
+      "submitting": "Mengirim tautan...",
+      "success": "Tautan atur ulang kata sandi telah dikirim ke email Anda. Silakan cek kotak masuk Anda.",
+      "backToLogin": "Kembali ke halaman masuk"
+    },
+    "resetPassword": {
+      "title": "Buat kata sandi baru",
+      "subtitle": "Pilih kata sandi baru yang kuat dengan minimal 8 karakter.",
+      "newPassword": "Kata sandi baru",
+      "newPasswordPlaceholder": "Masukkan kata sandi baru",
+      "submit": "Simpan kata sandi baru",
+      "submitting": "Menyimpan kata sandi...",
+      "success": "Kata sandi Anda berhasil diperbarui. Silakan masuk dengan kata sandi baru Anda.",
+      "missingToken": "Tautan reset kata sandi tidak valid atau tidak ditemukan. Silakan minta tautan baru.",
+      "requestNewLink": "Minta tautan reset baru",
+      "goToLogin": "Lanjut ke halaman masuk"
     },
     "errors": {
       "invalidCredentials": "Email atau kata sandi salah. Silakan coba lagi.",
+      "emailNotVerified": "Silakan verifikasi alamat email Anda sebelum masuk. Cek kotak masuk Anda atau kirim ulang email verifikasi di bawah.",
       "emailTaken": "Akun dengan email ini sudah terdaftar. Coba masuk saja.",
+      "accountNotFound": "Akun dengan alamat email ini tidak ditemukan.",
+      "invalidOrExpiredToken": "Tautan ini tidak valid atau sudah kedaluwarsa. Silakan minta tautan baru.",
       "passwordMismatch": "Kata sandi tidak cocok.",
       "passwordLength": "Kata sandi minimal 8 karakter.",
       "nameRequired": "Silakan masukkan nama lengkap Anda.",

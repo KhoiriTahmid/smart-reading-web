@@ -298,6 +298,10 @@
       "subtitle": "Sign in to control your reading device and continue where you left off.",
       "submit": "Sign in",
       "submitting": "Signing in...",
+      "forgotPassword": "Forgot password?",
+      "resendVerification": "Resend verification email",
+      "resendingVerification": "Sending verification email...",
+      "verificationResent": "Verification email sent! Please check your inbox.",
       "noAccount": "New to Smart Reading?",
       "createAccount": "Create an account"
     },
@@ -308,11 +312,40 @@
       "submitting": "Creating account...",
       "passwordHint": "Use at least 8 characters.",
       "haveAccount": "Already have an account?",
-      "signIn": "Sign in"
+      "signIn": "Sign in",
+      "verifyTitle": "Check your email",
+      "verifyDescription": "We've sent a verification link to {{email}}. Click the button inside the email to activate your account.",
+      "didNotReceive": "Didn't receive the email?",
+      "resendBtn": "Resend verification email",
+      "resending": "Resending...",
+      "resentSuccess": "A new verification email has been sent."
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter the email address associated with your account and we'll send you a link to reset your password.",
+      "submit": "Send reset link",
+      "submitting": "Sending reset link...",
+      "success": "A password reset link has been sent to your email. Please check your inbox.",
+      "backToLogin": "Back to sign in"
+    },
+    "resetPassword": {
+      "title": "Set a new password",
+      "subtitle": "Choose a strong password that is at least 8 characters long.",
+      "newPassword": "New password",
+      "newPasswordPlaceholder": "Enter new password",
+      "submit": "Reset password",
+      "submitting": "Resetting password...",
+      "success": "Your password has been reset successfully. You can now sign in with your new password.",
+      "missingToken": "Invalid or missing password reset token. Please request a new reset link.",
+      "requestNewLink": "Request a new reset link",
+      "goToLogin": "Continue to sign in"
     },
     "errors": {
       "invalidCredentials": "Incorrect email or password. Please try again.",
+      "emailNotVerified": "Please verify your email address before signing in. Check your inbox or resend the verification email below.",
       "emailTaken": "An account with this email already exists. Try signing in instead.",
+      "accountNotFound": "No account found with this email address.",
+      "invalidOrExpiredToken": "This link is invalid or has expired. Please request a new one.",
       "passwordMismatch": "Passwords do not match.",
       "passwordLength": "Password must be at least 8 characters.",
       "nameRequired": "Please enter your full name.",

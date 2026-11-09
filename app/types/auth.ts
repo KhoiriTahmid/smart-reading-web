@@ -31,3 +31,13 @@ export interface AuthTokens {
   access_token: string;
   refresh_token: string;
 }
+
+export interface MessageResponse {
+  message: string;
+}
+
+export interface ResetPasswordInput {
+  token: string;
+  newPassword: string;
+}
+

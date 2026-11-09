@@ -70,6 +70,10 @@ function canRefresh(path: string): boolean {
   return (
     !path.startsWith("/auth/signin-by-email") &&
     !path.startsWith("/auth/signup-by-email") &&
+    !path.startsWith("/auth/resend-verification") &&
+    !path.startsWith("/auth/forgot-password") &&
+    !path.startsWith("/auth/reset-password") &&
+    !path.startsWith("/auth/verify-email") &&
     !path.startsWith("/auth/refresh")
   );
 }

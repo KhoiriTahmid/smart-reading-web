@@ -1,4 +1,4 @@
-import { CircleAlert } from "lucide-react";
+import { CheckCircle2, CircleAlert } from "lucide-react";
 
 export function OrDivider({ label }: { label: string }) {
   return (
@@ -21,3 +21,16 @@ export function FormError({ message }: { message: string }) {
     </div>
   );
 }
+
+export function FormSuccess({ message }: { message: string }) {
+  return (
+    <div
+      role="status"
+      className="bg-accbg text-acc flex items-start gap-2 rounded-xl px-3.5 py-2.5 text-xs font-medium"
+    >
+      <CheckCircle2 className="mt-px size-4 shrink-0" />
+      <span>{message}</span>
+    </div>
+  );
+}
+
